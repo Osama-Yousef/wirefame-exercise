@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    
+}
+
+header {
+    background-color: rgb(58, 58, 58);
+    margin-bottom: 15px;
+    
+}
+
+/* for images at all */
+img {
+    margin: 15px;
+}
+
+/* for nav bar */
+li{
+    
+    display: inline-block;
+    vertical-align: middle;
+    color: gray;
+margin-right: 100px;
+}
+
+/* for footer */
+footer {
+    background-color:  rgb(58, 58, 58);
+    height: 150px;
+    
+}
+
+/* section before the footer */
+li > div > p {
+    height: 350px;
+    overflow: scroll;
+    width: 400px;
+    text-align: left;
+}
+   
+section > ul > li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 15px;
+    text-align: left;
+}
+
+button {
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 350ms;
+
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}
